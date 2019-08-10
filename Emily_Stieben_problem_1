@@ -1,0 +1,29 @@
+/* Emily Stieben */
+/* CECS 130-50 */
+/* Assignment 5 */
+
+#include <stdio.h>
+#include <string.h>
+int main(){
+printf("------------------Occurence Going------------------\n");
+char *p="When the going gets tough, the tough stay put!";
+while ( (p=strstr(p,"Going")) != NULL ){
+      printf("%s\n",p );
+      p++;
+    }
+printf("----------------------------------------------------\n");
+printf("------------------Occurence tou------------------\n");
+char *p1="When the going gets tough, the tough stay put!";
+while ( (p1=strstr(p1,"tou")) != NULL ){
+      printf("%s\n",p1 );
+      p1++;
+    }
+printf("----------------------------------------------------\n");
+printf("------------------Occurence ay put!------------------\n");
+char *p2="When the going gets tough, the tough stay put!";
+while ( (p2=strstr(p2,"ay put!")) != NULL ){
+      printf("%s\n",p2 );
+      p2++;
+    }
+printf("----------------------------------------------------\n");
+}
